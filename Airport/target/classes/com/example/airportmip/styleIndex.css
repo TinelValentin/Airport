@@ -1,0 +1,252 @@
+
+
+.menu-bar {
+    -fx-background-color: #5c93af;
+    -fx-pref-width: 1500px;
+    -fx-pref-height: 60px;
+    -fx-text-fill: white;
+}
+
+.menu-bar:focused .label {
+    -fx-background-color: #69a3c0;
+}
+#item{
+    -fx-font-size: 15px;
+    -fx-font-weight: 700;
+}
+#item:hover .label {
+    -fx-background: #69a3c0;
+    -fx-padding: 5 20 5 15;
+}
+.menu .label {
+
+    -fx-pref-width: 100px;
+    -fx-pref-height: 40px;
+   -fx-font-size: 15px;
+
+    -fx-text-fill: white;
+
+}
+
+.menu .label:focused {
+    -fx-background-color: white;
+
+}
+
+.menu-item  {
+    -fx-pref-width: 110px;
+    -fx-font-size: 15px;
+    -fx-pref-height: 40px;
+
+
+}
+.menu-item .label {
+
+    -fx-pref-width: 100px;
+    -fx-pref-height: 40px;
+    -fx-text-fill: Black;
+}
+
+.menu-item:focused .label {
+
+    -fx-pref-width: 100px;
+    -fx-pref-height: 40px;
+    -fx-text-fill: white;
+    -fx-padding: 5 15 5 15;
+}
+
+#Welcome
+{
+    -fx-font-size: 80px;
+    -fx-text-fill: white;
+    -fx-font-weight: 700;
+    -fx-padding: 300 0 0 90;
+
+}
+
+#Welcome_2
+{
+    -fx-font-size: 55px;
+    -fx-text-fill: white;
+    -fx-font-weight: 700;
+    -fx-padding: 380 0 0 90;
+
+}
+
+#Welcome_3
+{
+    -fx-font-size: 65px;
+    -fx-text-fill: white;
+    -fx-font-weight: 700;
+    -fx-padding: 320 0 0 520;
+
+}
+
+#layout_butoane
+{
+    -fx-padding: 570 0 0 350;
+}
+
+.Button
+{
+    -fx-background-color: linear-gradient(from 10% 10% to 100% 100%, white,#69a3c0);
+
+
+}
+
+#Label
+{
+    -fx-background-color: #69a3c0;
+    -fx-border-radius: 50px;
+    -fx-font-size: 30px;
+    -fx-font-weight: 600;
+    -fx-text-fill: white;
+}
+
+#Afisare
+{
+    -fx-font-size: 20px;
+    -fx-background-color: white;
+    -fx-text-fill: Black;
+    -fx-border-radius: 20px;
+
+
+}
+
+#Title
+{
+    -fx-font-size: 30px;
+    -fx-font-weight: 700;
+    -fx-font-family: "Playfair Display", "Didot", "Times New Roman", Times, serif;
+    -fx-text-fill: White;
+    -fx-border-radius: 20px;
+
+
+}
+
+
+#detailsButton{
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-family:"Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-text-fill: #3a4fd2;
+    -fx-font-size: 15px;
+    -fx-font-weight: 600;
+
+}
+
+#detailsButton:focused {
+    -fx-border-color: transparent, black;
+    -fx-border-width: 1, 1;
+
+    -fx-border-radius: 0, 0;
+    -fx-border-insets: 1 1 1 1, 0;
+}
+
+#detailsButton:pressed {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+
+
+#next{
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-family:"Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-text-fill: White;
+    -fx-font-size: 18px;
+    -fx-font-weight: 600;
+
+}
+
+#next:focused {
+    -fx-border-color: transparent;
+    -fx-border-width: 1, 1;
+
+    -fx-border-radius: 0, 0;
+    -fx-border-insets: 1 1 1 1, 0;
+}
+
+#next:pressed {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+
+#activeButton
+{
+    -fx-background-color: green;
+    -fx-font-size: 13px;
+    fx-border-radius: 20 20 0 0;
+    -fx-background-radius: 20 20 0 0;
+    -fx-text-fill: white;
+    -fx-font-weight: 600;
+    -fx-padding: 0 0 0 25px;
+}
+
+#inactiveButton
+{
+    -fx-background-color: #c3c541;
+    fx-font-size: 11px;
+    fx-border-radius: 20 20 0 0;
+    -fx-background-radius: 20 20 0 0;
+    -fx-text-fill: white;
+    -fx-font-weight: 600;
+    -fx-padding: 12px;
+}
+
+#back
+{
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+    -fx-background-color: #d4e3ef;
+
+
+}
+
+#back:hover {
+    -fx-background-color: #ffffff;
+}
+
+#flight
+{
+    -fx-font-size: 30px;
+    -fx-text-fill: black;
+
+}
+
+#submitButton
+{
+    -fx-background-color: #4e9379;
+    -fx-text-fill: White;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+
+}
+
+#submitButton:hover
+{
+    -fx-background-color: #7ac0a5;
+    -fx-text-fill: White;
+
+}
+
+
+#searchButton
+{
+    -fx-background-color: #ececec;
+    -fx-text-fill: Black;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+
+}
+
+#searchButton:hover
+{
+    -fx-background-color: #ffffff;
+    -fx-text-fill: Black;
+
+}
